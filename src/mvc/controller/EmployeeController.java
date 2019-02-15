@@ -21,4 +21,18 @@ public class EmployeeController {
     public String getEmployeeName() {
         return employeeModel.getFirstName() + " " + employeeModel.getLastName();
     }
+
+    public void setSSN(String ssn) {
+        employeeModel.setSsNumber(ssn);
+    }
+
+    public String getSSN() {
+        return employeeModel.getSsNumber();
+    }
+
+    // Uppdate our View
+
+    public void updateDachboardView() {
+        view.printEmployeeInfo(employeeModel);
+    }
 }

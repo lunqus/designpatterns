@@ -4,7 +4,7 @@ import mvc.model.Employee;
 
 public class EmployeeDashboardView {
 
-    private Employee emolyee;
+    // private Employee emolyee;
 
     public void printEmployeeInfo(Employee emolyee) {
 
