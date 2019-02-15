@@ -15,7 +15,7 @@ public class EmployeeController {
 
     public void setEmployee(String name, String lastName) {
         employeeModel.setFirstName(name);
-        employeeModel.getLastName(lastName);
+        employeeModel.setLastName(lastName);
     }
 
     public String getEmployeeName() {
